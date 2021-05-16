@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Image recognizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+  <div class="container">
+    
+    <center>
+      
+      <h3 class="btn btn-default Heading">Image Recognition</h3>
+
+      <br><br>
+
+      <p style="font-size: 22px;" id="info">Model is trained to identify the following family members: </p>
+
+      <hr>
+
+      <b class="Name_of_objects">
+       Myself-Manya Jha
+      <hr>
+       Mother-Priti Jha
+      <hr>
+       Grandmother-Uma Jha
+      <hr>
+       Grandfather-Ganesh Chandra Jha
+      <hr>
+       Uncle-Abhishek Jha
+       </b>
+      <br>
+
+      <label id="info">Webcam View - </label>
+
+      <div id="Camera"></div>
+
+      <br><br>
+
+      <div id="Result"></div>
+
+      <br><br>
+
+      <btn class="btn btn-info" onclick="take_snapshot()" id="Capture_image">Take Snapshot</btn>
+
+      <br><br>
+
+      <btn class="btn btn-success" onclick="Identify_image()" id="Check_image"> Identify Snapshot</btn>
+
+      <br><br>
+
+      <p style="font-size: 22px;">Family Member : <span id="member_name"></span> </p>
+      <p style="font-size: 22px;">Accuracy :  <span id="member_accuracy"></span></p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  </body>
+</html>
+
+ 

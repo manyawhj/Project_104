@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(219, 116, 250);
+     color:rgb(246, 246, 252);
+}
+
+.Heading{ 
+width: 80%;
+font-size: 25pt;
+font-weight: bold;
+}
+
+.Name_of_objects{
+ font-size: 20px;
+ background-color: rgb(6, 77, 158);
+ color:rgb(245, 217, 217);
+}
+
+.Name_of_objects:hover{
+    background-color: rgb(63, 23, 241);
+
+}
+
+#Camera{
+    width: 350px;
+    height: 300px;
+    border: 2px dashed rgb(73, 73, 240);
+}
+
+#info{
+    color:lavender;
+    font-size: 25pt;
+}
+
+p{
+    font-weight: bold;
+}
